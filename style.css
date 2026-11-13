@@ -1,25 +1,38 @@
-.container{
-    margin: auto;
-    color: green;
-    box-shadow: 5px 5px 5px lightgreen;
-    width: 300px;
-    text-align: center;
-    border-radius: 8px;
-    border: 1px solid lightgreen;
+body{
+    background-color: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-.valasztas{
+#container{
+    width: 30%;
+    max-width: 400px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 10px 10px 20px rgb(98, 224, 86);
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+img{
+    width: 30%;
+    height: 30%;
+}
+ 
+#kepek{
     display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: center;
 }
-
-img{
-    width: 100px;
-    height: 100px;
+h1, h2, h3{
+    text-align: center;
+    color: rgb(2, 175, 2);
 }
-
+ 
+#jatekos, #gep{
+    text-align: center;
+}
 p{
     color: red;
-    text-shadow: 2px 2px 4px red;
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px red;
 }
+ 
